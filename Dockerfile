@@ -11,4 +11,4 @@ COPY . .
 RUN mkdir build && cd build && cmake .. && make
 
 # Wskazanie komendy uruchamianej po starcie kontenera
-CMD ["./build/your_executable_name"]
+CMD ["./build/game"]
