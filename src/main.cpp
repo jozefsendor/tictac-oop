@@ -12,7 +12,7 @@ int main(){
     CGame* Game = CGame::Obiekt(rows, cols);
 
 
-    std::cout<<"GIT"<<std::endl;
+    std::cout<<"GIT GIT"<<std::endl;
     std::cin.get();
     CGame::DestroyInstance();
     return 0;
