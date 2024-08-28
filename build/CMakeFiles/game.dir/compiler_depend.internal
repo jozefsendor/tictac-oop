@@ -127,8 +127,9 @@ CMakeFiles/game.dir/src/Game.cpp.o
 CMakeFiles/game.dir/src/GameBoard.cpp.o
  /home/jozef/Desktop/CppTrain/tictacOOP/src/GameBoard.cpp
  /usr/include/stdc-predef.h
- /home/jozef/Desktop/CppTrain/tictacOOP/include/Game.hpp
- /usr/include/c++/11/cstddef
+ /home/jozef/Desktop/CppTrain/tictacOOP/include/GameBoard.hpp
+ /usr/include/c++/11/algorithm
+ /usr/include/c++/11/utility
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h
  /usr/include/features.h
@@ -141,10 +142,6 @@ CMakeFiles/game.dir/src/GameBoard.cpp.o
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h
  /usr/include/c++/11/pstl/pstl_config.h
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h
- /home/jozef/Desktop/CppTrain/tictacOOP/include/GameBoard.hpp
- /usr/include/c++/11/algorithm
- /usr/include/c++/11/utility
  /usr/include/c++/11/bits/stl_relops.h
  /usr/include/c++/11/bits/stl_pair.h
  /usr/include/c++/11/bits/move.h
@@ -168,6 +165,7 @@ CMakeFiles/game.dir/src/GameBoard.cpp.o
  /usr/include/c++/11/cstdlib
  /usr/include/stdlib.h
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
@@ -245,7 +243,6 @@ CMakeFiles/game.dir/src/GameBoard.cpp.o
  /usr/include/c++/11/bits/vector.tcc
  /usr/include/c++/11/pstl/execution_defs.h
  /home/jozef/Desktop/CppTrain/tictacOOP/include/Enums.hpp
- /home/jozef/Desktop/CppTrain/tictacOOP/include/Player.hpp
 
 CMakeFiles/game.dir/src/Player.cpp.o
  /home/jozef/Desktop/CppTrain/tictacOOP/src/Player.cpp
@@ -468,7 +465,5 @@ CMakeFiles/game.dir/src/main.cpp.o
  /usr/include/c++/11/bits/vector.tcc
  /usr/include/c++/11/pstl/execution_defs.h
  /home/jozef/Desktop/CppTrain/tictacOOP/include/Enums.hpp
- /home/jozef/Desktop/CppTrain/tictacOOP/include/Player.hpp
- /home/jozef/Desktop/CppTrain/tictacOOP/include/GameBoard.hpp
  /home/jozef/Desktop/CppTrain/tictacOOP/include/Player.hpp
 

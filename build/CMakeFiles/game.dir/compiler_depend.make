@@ -125,8 +125,9 @@ CMakeFiles/game.dir/src/Game.cpp.o: ../src/Game.cpp \
 
 CMakeFiles/game.dir/src/GameBoard.cpp.o: ../src/GameBoard.cpp \
   /usr/include/stdc-predef.h \
-  ../include/Game.hpp \
-  /usr/include/c++/11/cstddef \
+  ../include/GameBoard.hpp \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/utility \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
@@ -139,10 +140,6 @@ CMakeFiles/game.dir/src/GameBoard.cpp.o: ../src/GameBoard.cpp \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  ../include/GameBoard.hpp \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/utility \
   /usr/include/c++/11/bits/stl_relops.h \
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/bits/move.h \
@@ -166,6 +163,7 @@ CMakeFiles/game.dir/src/GameBoard.cpp.o: ../src/GameBoard.cpp \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -242,8 +240,7 @@ CMakeFiles/game.dir/src/GameBoard.cpp.o: ../src/GameBoard.cpp \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../include/Enums.hpp \
-  ../include/Player.hpp
+  ../include/Enums.hpp
 
 CMakeFiles/game.dir/src/Player.cpp.o: ../src/Player.cpp \
   /usr/include/stdc-predef.h \
@@ -464,8 +461,6 @@ CMakeFiles/game.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/bits/vector.tcc \
   /usr/include/c++/11/pstl/execution_defs.h \
   ../include/Enums.hpp \
-  ../include/Player.hpp \
-  ../include/GameBoard.hpp \
   ../include/Player.hpp
 
 
