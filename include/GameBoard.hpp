@@ -1,21 +1,26 @@
 #ifndef GAMEBOARD_HPP
 #define GAMEBOARD_HPP
 #include <algorithm>
+#include <iostream>
+#include <cstdlib>
+
 #include "Enums.hpp"
 
 class CGame;
 
 class CGameBoard{
     private:
-        FIELD** m_board;
-        int m_rows;
-        int m_cols;
+        FIELD** m_pBoard;
+        CGame* m_pGame;
+        int m_Rows;
+        int m_Cols;
     public:  
-        CGameBoard(int rows, int cols);
+        CGameBoard(int rows, int cols, CGame* game);
         ~CGameBoard();
-
+        int GetRows();
+        int GetCols();
         bool DisplayBoard() const;
+        bool UpdateBoard(int fieldNum, SIGN playerSign);
 };
-
 
 #endif //GAMEBOARD_HPP
