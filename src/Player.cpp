@@ -4,10 +4,11 @@
 CPlayer::CPlayer(std::string name){
     m_Name=name;
 }
+CPlayer::~CPlayer() = default;
 SIGN CPlayer::GetSign(){
     return m_Sign;
 }
-SIGN CPlayer::SetSign(SIGN player_sign){
+void CPlayer::SetSign(SIGN player_sign){
     m_Sign = player_sign;
 }
 std::string CPlayer::GetName(){

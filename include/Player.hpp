@@ -11,7 +11,7 @@ class CPlayer{
         CPlayer(std::string name);
         ~CPlayer();
         SIGN GetSign();
-        SIGN SetSign(SIGN player_sign);
+        void SetSign(SIGN player_sign);
         std::string GetName();
         int MakeMove();
 };

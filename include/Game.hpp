@@ -26,8 +26,6 @@ class CGame{
         bool UpdateGame();
         GAMESTATE GetGameState();
         CGameBoard* GetGameBoard() const;
-        CPlayer* GetActPlayer();
-        CPlayer* SetActPlayer();
 };
 
 

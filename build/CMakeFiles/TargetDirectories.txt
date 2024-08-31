@@ -1,0 +1,3 @@
+/home/jozef/Desktop/CppTrain/tictacOOP/build/CMakeFiles/game.dir
+/home/jozef/Desktop/CppTrain/tictacOOP/build/CMakeFiles/edit_cache.dir
+/home/jozef/Desktop/CppTrain/tictacOOP/build/CMakeFiles/rebuild_cache.dir

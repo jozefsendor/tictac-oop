@@ -21,6 +21,7 @@ class CGameBoard{
         int GetCols();
         bool DisplayBoard() const;
         bool UpdateBoard(int fieldNum, SIGN playerSign);
+        FIELD GetField(int rows, int cols);
 };
 
 #endif //GAMEBOARD_HPP
