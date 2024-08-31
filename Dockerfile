@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
 COPY . .
 
 # Skonfiguruj i zbuduj aplikację
-RUN mkdir build && cd build && cmake .. && make
+RUN rm -rf build && mkdir build && cd build && cmake .. && make
 
 # Wskazanie komendy uruchamianej po starcie kontenera
 CMD ["./build/game"]
