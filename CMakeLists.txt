@@ -8,8 +8,8 @@ project(GameProject VERSION 1.0)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# Dodaj katalogi z nagłówkami
-include_directories(include)
+# Dodaj katalog include do przeszukiwania nagłówków
+include_directories(${PROJECT_SOURCE_DIR}/include)
 
 # Pliki źródłowe
 set(SOURCES

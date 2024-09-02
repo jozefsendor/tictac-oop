@@ -1,21 +1,25 @@
-# Użyj oficjalnego obrazu Dockera z GCC jako bazowy
-FROM gcc:latest
+# Używamy oficjalnego obrazu Ubuntu jako bazowego
+FROM ubuntu:latest
 
-# Ustaw katalog roboczy w kontenerze
-WORKDIR /app
-
-# Zainstaluj CMake i inne wymagane narzędzia
+# Instalujemy wymagane pakiety
 RUN apt-get update && apt-get install -y \
-    cmake \
-    make \
     g++ \
+    make \
+    cmake \
     && rm -rf /var/lib/apt/lists/*
 
-# Skopiuj pliki projektu do katalogu roboczego
+# Ustawiamy katalog roboczy
+WORKDIR /app
+
+# Kopiujemy pliki projektu do kontenera
 COPY . .
 
-# Skonfiguruj i zbuduj aplikację
-RUN rm -rf build && mkdir build && cd build && cmake .. && make
+# Tworzymy katalog build i przechodzimy do niego
+RUN mkdir -p build && cd build \
+    # Konfigurujemy projekt przy użyciu CMake
+    && cmake .. \
+    # Kompilujemy projekt
+    && make
 
-# Wskazanie komendy uruchamianej po starcie kontenera
-CMD ["./build/game"]
+# Ustawiamy domyślną komendę, która uruchomi się po starcie kontenera
+CMD ["bash"]

@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-fdiagnostics-color=always", // Kolorowe komunikaty błędów
+                "-g", // Dodaj informacje o debugowaniu
+                "-o", // Ustawienie pliku wyjściowego
+                "${workspaceFolder}/build/game", // Ścieżka do pliku wykonywalnego
+                "${workspaceFolder}/src/*.cpp", // Wszystkie pliki .cpp w katalogu src
+                "-I${workspaceFolder}/include" // Dodaj katalog include do ścieżek nagłówków
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Task to compile all cpp files into a single executable."
+        }
+    ]
+}

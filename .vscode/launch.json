@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Game",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/game", // Ścieżka do pliku wykonywalnego
+            "args": [], // Argumenty przekazywane do programu
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}", // Katalog roboczy
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "preLaunchTask": "build", // Odwołanie do zadania budowy
+            "miDebuggerPath": "/usr/bin/gdb",
+            "internalConsoleOptions": "openOnSessionStart",
+            "logging": {
+                "engine": true
+            },
+        }
+    ]
+}
